@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(249, 187, 255);
+    margin: 70px;
+
+}
+
+h1 {
+    color: rgb(188, 69, 194); 
+    font-size: 35pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    border-style: dotted;
+    border-color: black;
+    border-width: 3mm;
+    padding-left: 6mm;
+    padding-right: 4mm;
+    padding-top: 4mm;
+    padding-bottom: 4mm;
+} 
+
+h2 {
+    color: blueviolet;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 28%;
+    margin-top: 10mm;
+    border-style: solid;
+    border-color: black;
+    border-width: 2mm;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-left: 6mm;
+    padding-right: 4mm;
+    padding-top: 4mm;
+    padding-bottom: 4mm;
+    
+}
+
+h3 {
+    color: rgb(129, 66, 187);
+    font-size: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10mm;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    padding-left: 4mm;
+    padding-right: 4mm;
+    padding-top: 4mm;
+    padding-bottom: 4mm;
+}
+
+.content {
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 25px;
+  background-color: rgb(249, 187, 255);
+  color: rgb(83, 0, 116);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-left: 95px;
+  margin-right: 60px;
+  line-height: 1.5;
+}
+
+.collapsible {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
+  background-color: rgb(128, 27, 121);
+  color: rgb(245, 209, 255);
+  cursor: pointer;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-top: 2mm;
+  margin-left: 30mm;
+  margin-bottom: 2mm;
+  width: 83%;
+  border: solid rgb(188, 69, 194) 1mm;
+  text-align: left;
+  outline: none;
+}
